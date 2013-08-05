@@ -1,0 +1,4 @@
+#!/bin/bash
+source /home/lixuze/shell/netconfig.dat
+#echo "nameserver "$nameserver>>/etc/resolv.conf
+/etc/init.d/networking restart

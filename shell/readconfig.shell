@@ -1,0 +1,7 @@
+#!/bin/bash
+
+
+
+
+source /home/lixuze/shell/netconfig.dat
+echo "nameserver="$nameserver

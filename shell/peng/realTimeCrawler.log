@@ -1,0 +1,594 @@
+2013-04-03 13:51:37  INFO SimpleCrawler:28 - 初始化redis
+2013-04-03 13:51:38  INFO ClientConfig:71 - serverIp: 192.168.70.12
+2013-04-03 13:51:38  INFO ClientConfig:72 - serverPort: 8098
+2013-04-03 13:51:38  INFO ClientConfig:73 - tmServerIp: 192.168.70.12
+2013-04-03 13:51:38  INFO ClientConfig:74 - crawlerTaskNum: 2
+2013-04-03 13:51:38  INFO SocialClient:78 - NO_ACCESS_TOKEN
+2013-04-03 13:51:38  INFO SocialClient:159 - 从服务器取token耗时：0.174
+2013-04-03 13:51:38  INFO SocialClient:104 - 获取到新token: 2.00JFtm3Dvi153B71e4ce9313Pw78lC
+2013-04-03 13:51:38  INFO SocialClient:112 - in tokenChange
+2013-04-03 13:51:38  INFO WeiboApi:369 - in getAccountRateLimitStatus
+2013-04-03 13:51:39  INFO SocialClient:126 - getAccountRateLimitStatus rateApi != null
+2013-04-03 13:51:39  INFO SocialClient:135 - tokenChange执行, userRemaining=150, ipRemaining=1000
+2013-04-03 13:51:39  INFO StatusCarwler:22 - 开启第 1 个线程
+2013-04-03 13:51:39  INFO StatusCarwler:22 - 开启第 2 个线程
+2013-04-03 13:51:39  INFO StatusCarwler:22 - 开启第 3 个线程
+2013-04-03 13:51:39  INFO StatusCarwler:22 - 开启第 4 个线程
+2013-04-03 13:51:40  INFO StatusCarwler:22 - 开启第 5 个线程
+2013-04-03 13:51:40  INFO StatusCarwler:22 - 开启第 6 个线程
+2013-04-03 13:51:40  INFO StatusCarwler:22 - 开启第 7 个线程
+2013-04-03 13:51:40  INFO StatusCarwler:22 - 开启第 8 个线程
+2013-04-03 13:51:41  INFO StatusCarwler:22 - 开启第 9 个线程
+2013-04-03 13:51:41  INFO StatusCarwler:22 - 开启第 10 个线程
+2013-04-03 13:51:41  INFO StatusCarwler:22 - 开启第 11 个线程
+2013-04-03 13:51:41  INFO StatusCarwler:22 - 开启第 12 个线程
+2013-04-03 13:51:41  INFO DataMapping:45 - java.io.BufferedInputStream@45490eb5
+2013-04-03 13:51:41  INFO StatusCarwler:22 - 开启第 13 个线程
+2013-04-03 13:51:42  INFO StatusCarwler:22 - 开启第 14 个线程
+2013-04-03 13:51:42  INFO StatusCarwler:22 - 开启第 15 个线程
+2013-04-03 13:51:42  INFO StatusCarwler:22 - 开启第 16 个线程
+2013-04-03 13:51:42  INFO StatusCarwler:22 - 开启第 17 个线程
+2013-04-03 13:51:43  INFO StatusCarwler:22 - 开启第 18 个线程
+2013-04-03 13:51:43  INFO StatusCarwler:22 - 开启第 19 个线程
+2013-04-03 13:51:43  INFO StatusCarwler:22 - 开启第 20 个线程
+2013-04-03 13:51:43  INFO StatusCarwler:22 - 开启第 21 个线程
+2013-04-03 13:51:43  INFO StatusCarwler:22 - 开启第 22 个线程
+2013-04-03 13:51:44  INFO StatusCarwler:22 - 开启第 23 个线程
+2013-04-03 13:51:44  INFO StatusCarwler:22 - 开启第 24 个线程
+2013-04-03 13:51:44  INFO StatusCarwler:22 - 开启第 25 个线程
+2013-04-03 13:51:44  INFO StatusCarwler:22 - 开启第 26 个线程
+2013-04-03 13:51:45  INFO StatusCarwler:22 - 开启第 27 个线程
+2013-04-03 13:51:45  INFO StatusCarwler:22 - 开启第 28 个线程
+2013-04-03 13:51:45  INFO StatusCarwler:22 - 开启第 29 个线程
+2013-04-03 13:51:45  INFO StatusCarwler:22 - 开启第 30 个线程
+2013-04-03 13:51:46  INFO StatusCarwler:22 - 开启第 31 个线程
+2013-04-03 13:51:46  INFO SimpleCrawler:87 - 爬取微薄数: 191,重复微薄数: 40,重复率: 20.942408%
+2013-04-03 13:51:46  INFO StatusCarwler:26 - 结束第 32 个线程，耗时: 6565ms
+2013-04-03 13:51:46  INFO StatusCarwler:22 - 开启第 32 个线程
+2013-04-03 13:51:46  INFO StatusCarwler:26 - 结束第 33 个线程，耗时: 6160ms
+2013-04-03 13:51:46  INFO StatusCarwler:26 - 结束第 33 个线程，耗时: 7200ms
+2013-04-03 13:51:46  INFO StatusCarwler:26 - 结束第 33 个线程，耗时: 5808ms
+2013-04-03 13:51:46  INFO StatusCarwler:22 - 开启第 33 个线程
+2013-04-03 13:51:46  INFO StatusCarwler:26 - 结束第 34 个线程，耗时: 7145ms
+2013-04-03 13:51:46  INFO StatusCarwler:26 - 结束第 34 个线程，耗时: 5687ms
+2013-04-03 13:51:46  INFO StatusCarwler:26 - 结束第 34 个线程，耗时: 6604ms
+2013-04-03 13:51:46  INFO StatusCarwler:26 - 结束第 34 个线程，耗时: 6806ms
+2013-04-03 13:51:47  INFO StatusCarwler:22 - 开启第 34 个线程
+2013-04-03 13:51:47  INFO StatusCarwler:22 - 开启第 35 个线程
+2013-04-03 13:51:47  INFO StatusCarwler:22 - 开启第 36 个线程
+2013-04-03 13:51:47  INFO StatusCarwler:22 - 开启第 37 个线程
+2013-04-03 13:51:47  INFO StatusCarwler:22 - 开启第 38 个线程
+2013-04-03 13:51:48  INFO StatusCarwler:22 - 开启第 39 个线程
+2013-04-03 13:51:48  INFO StatusCarwler:22 - 开启第 40 个线程
+2013-04-03 13:51:48  INFO ZkEventThread:64 - Starting ZkClient event thread.
+2013-04-03 13:51:48  INFO ZkEventThread:64 - Starting ZkClient event thread.
+2013-04-03 13:51:48  INFO StatusCarwler:22 - 开启第 41 个线程
+2013-04-03 13:51:48  INFO StatusCarwler:22 - 开启第 42 个线程
+2013-04-03 13:51:48  INFO ZooKeeper:100 - Client environment:zookeeper.version=3.4.5-1392090, built on 09/30/2012 17:52 GMT
+2013-04-03 13:51:48  INFO ZooKeeper:100 - Client environment:host.name=peng
+2013-04-03 13:51:48  INFO ZooKeeper:100 - Client environment:java.version=1.6.0_31
+2013-04-03 13:51:48  INFO ZooKeeper:100 - Client environment:java.vendor=Sun Microsystems Inc.
+2013-04-03 13:51:48  INFO ZooKeeper:100 - Client environment:java.home=/usr/lib/jvm/j2sdk1.6-oracle/jre
+2013-04-03 13:51:48  INFO ZooKeeper:100 - Client environment:java.class.path=/home/peng/workspace/realTimeCrawler/target/classes:/home/peng/workspace/gitspace/ferrari/social/target/classes:/home/peng/workspace/gitspace/ferrari/social/target/test-classes:/home/peng/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/peng/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/peng/.m2/repository/net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk15.jar:/home/peng/.m2/repository/commons-beanutils/commons-beanutils/1.8.0/commons-beanutils-1.8.0.jar:/home/peng/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/peng/.m2/repository/commons-lang/commons-lang/2.5/commons-lang-2.5.jar:/home/peng/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/home/peng/.m2/repository/net/sf/ezmorph/ezmorph/1.0.6/ezmorph-1.0.6.jar:/home/peng/.m2/repository/org/apache/thrift/libthrift/0.8.0/libthrift-0.8.0.jar:/home/peng/.m2/repository/org/slf4j/slf4j-api/1.5.8/slf4j-api-1.5.8.jar:/home/peng/.m2/repository/org/apache/httpcomponents/httpclient/4.1.2/httpclient-4.1.2.jar:/home/peng/.m2/repository/org/apache/httpcomponents/httpcore/4.1.3/httpcore-4.1.3.jar:/home/peng/.m2/repository/org/mongodb/mongo-java-driver/2.9.3/mongo-java-driver-2.9.3.jar:/home/peng/.m2/repository/org/quartz-scheduler/quartz/2.1.6/quartz-2.1.6.jar:/home/peng/.m2/repository/c3p0/c3p0/0.9.1.1/c3p0-0.9.1.1.jar:/home/peng/.m2/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar:/home/peng/.m2/repository/commons-codec/commons-codec/1.2/commons-codec-1.2.jar:/home/peng/.m2/repository/mysql/mysql-connector-java/5.1.22/mysql-connector-java-5.1.22.jar:/home/peng/workspace/gitspace/ferrari/client/target/classes:/home/peng/workspace/gitspace/ferrari/client/target/test-classes:/home/peng/.m2/repository/redis/clients/jedis/2.0.0/jedis-2.0.0.jar:/home/peng/.m2/repository/commons-pool/commons-pool/1.5.5/commons-pool-1.5.5.jar:/home/peng/.m2/repository/org/apache/hadoop/hadoop-core/1.0.4/hadoop-core-1.0.4.jar:/home/peng/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/home/peng/.m2/repository/xmlenc/xmlenc/0.52/xmlenc-0.52.jar:/home/peng/.m2/repository/commons-httpclient/commons-httpclient/3.0.1/commons-httpclient-3.0.1.jar:/home/peng/.m2/repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar:/home/peng/.m2/repository/org/apache/commons/commons-math/2.1/commons-math-2.1.jar:/home/peng/.m2/repository/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar:/home/peng/.m2/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.jar:/home/peng/.m2/repository/commons-beanutils/commons-beanutils-core/1.8.0/commons-beanutils-core-1.8.0.jar:/home/peng/.m2/repository/commons-net/commons-net/1.4.1/commons-net-1.4.1.jar:/home/peng/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar:/home/peng/.m2/repository/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211.jar:/home/peng/.m2/repository/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar:/home/peng/.m2/repository/tomcat/jasper-runtime/5.5.12/jasper-runtime-5.5.12.jar:/home/peng/.m2/repository/tomcat/jasper-compiler/5.5.12/jasper-compiler-5.5.12.jar:/home/peng/.m2/repository/org/mortbay/jetty/jsp-api-2.1/6.1.14/jsp-api-2.1-6.1.14.jar:/home/peng/.m2/repository/org/mortbay/jetty/jsp-2.1/6.1.14/jsp-2.1-6.1.14.jar:/home/peng/.m2/repository/ant/ant/1.6.5/ant-1.6.5.jar:/home/peng/.m2/repository/commons-el/commons-el/1.0/commons-el-1.0.jar:/home/peng/.m2/repository/net/java/dev/jets3t/jets3t/0.7.1/jets3t-0.7.1.jar:/home/peng/.m2/repository/net/sf/kosmosfs/kfs/0.3/kfs-0.3.jar:/home/peng/.m2/repository/hsqldb/hsqldb/1.8.0.10/hsqldb-1.8.0.10.jar:/home/peng/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar:/home/peng/.m2/repository/org/eclipse/jdt/core/3.1.1/core-3.1.1.jar:/home/peng/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.0.1/jackson-mapper-asl-1.0.1.jar:/home/peng/.m2/repository/org/apache/hbase/hbase/0.94.5/hbase-0.94.5.jar:/home/peng/.m2/repository/com/yammer/metrics/metrics-core/2.1.2/metrics-core-2.1.2.jar:/home/peng/.m2/repository/com/google/guava/guava/11.0.2/guava-11.0.2.jar:/home/peng/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/peng/.m2/repository/com/github/stephenc/high-scale-lib/high-scale-lib/1.1.1/high-scale-lib-1.1.1.jar:/home/peng/.m2/repository/commons-io/commons-io/2.1/commons-io-2.1.jar:/home/peng/.m2/repository/org/apache/avro/avro/1.5.3/avro-1.5.3.jar:/home/peng/.m2/repository/org/xerial/snappy/snappy-java/1.0.3.2/snappy-java-1.0.3.2.jar:/home/peng/.m2/repository/org/apache/avro/avro-ipc/1.5.3/avro-ipc-1.5.3.jar:/home/peng/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/home/peng/.m2/repository/org/jruby/jruby-complete/1.6.5/jruby-complete-1.6.5.jar:/home/peng/.m2/repository/org/mortbay/jetty/servlet-api-2.5/6.1.14/servlet-api-2.5-6.1.14.jar:/home/peng/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.8.8/jackson-core-asl-1.8.8.jar:/home/peng/.m2/repository/org/codehaus/jackson/jackson-jaxrs/1.8.8/jackson-jaxrs-1.8.8.jar:/home/peng/.m2/repository/org/codehaus/jackson/jackson-xc/1.8.8/jackson-xc-1.8.8.jar:/home/peng/.m2/repository/org/slf4j/slf4j-log4j12/1.4.3/slf4j-log4j12-1.4.3.jar:/home/peng/.m2/repository/org/jamon/jamon-runtime/2.3.1/jamon-runtime-2.3.1.jar:/home/peng/.m2/repository/com/google/protobuf/protobuf-java/2.4.0a/protobuf-java-2.4.0a.jar:/home/peng/.m2/repository/com/sun/jersey/jersey-core/1.8/jersey-core-1.8.jar:/home/peng/.m2/repository/com/sun/jersey/jersey-json/1.8/jersey-json-1.8.jar:/home/peng/.m2/repository/org/codehaus/jettison/jettison/1.1/jettison-1.1.jar:/home/peng/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-impl-2.2.3-1.jar:/home/peng/.m2/repository/com/sun/jersey/jersey-server/1.8/jersey-server-1.8.jar:/home/peng/.m2/repository/asm/asm/3.1/asm-3.1.jar:/home/peng/.m2/repository/javax/xml/bind/jaxb-api/2.1/jaxb-api-2.1.jar:/home/peng/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/home/peng/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/home/peng/.m2/repository/org/apache/zookeeper/zookeeper/3.4.5/zookeeper-3.4.5.jar:/home/peng/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar:/home/peng/.m2/repository/org/jboss/netty/netty/3.2.2.Final/netty-3.2.2.Final.jar:/home/peng/.m2/repository/kafka/kafka/0.7.2/kafka-0.7.2.jar:/home/peng/.m2/repository/scala/scala-compiler/1.0/scala-compiler-1.0.jar:/home/peng/.m2/repository/scala/library/1.0/library-1.0.jar:/home/peng/.m2/repository/com/github/sgroschupf/zkclient/0.1/zkclient-0.1.jar:/home/peng/.m2/repository/org/jdom/jdom2/2.0.4/jdom2-2.0.4.jar:/home/peng/workspace/gitspace/common/target/classes:/home/peng/workspace/gitspace/common/target/test-classes:/home/peng/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar:/home/peng/.m2/repository/org/jboss/netty/netty/3.2.4.Final/netty-3.2.4.Final.jar:/home/peng/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.8.8/jackson-mapper-asl-1.8.8.jar:/home/peng/.m2/repository/org/slf4j/slf4j-api/1.4.3/slf4j-api-1.4.3.jar:/home/peng/.m2/repository/tomcat/jasper-compiler/5.5.23/jasper-compiler-5.5.23.jar:/home/peng/.m2/repository/tomcat/jasper-runtime/5.5.23/jasper-runtime-5.5.23.jar:/home/peng/.m2/repository/org/slf4j/slf4j-log4j12/1.5.8/slf4j-log4j12-1.5.8.jar
+2013-04-03 13:51:48  INFO ZooKeeper:100 - Client environment:java.library.path=/usr/lib/jvm/j2sdk1.6-oracle/jre/lib/amd64/server:/usr/lib/jvm/j2sdk1.6-oracle/jre/lib/amd64:/usr/lib/jvm/j2sdk1.6-oracle/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2013-04-03 13:51:48  INFO ZooKeeper:100 - Client environment:java.io.tmpdir=/tmp
+2013-04-03 13:51:48  INFO ZooKeeper:100 - Client environment:java.compiler=<NA>
+2013-04-03 13:51:48  INFO ZooKeeper:100 - Client environment:os.name=Linux
+2013-04-03 13:51:48  INFO ZooKeeper:100 - Client environment:os.arch=amd64
+2013-04-03 13:51:48  INFO ZooKeeper:100 - Client environment:os.version=3.2.0-39-generic
+2013-04-03 13:51:48  INFO ZooKeeper:100 - Client environment:user.name=peng
+2013-04-03 13:51:48  INFO ZooKeeper:100 - Client environment:user.home=/home/peng
+2013-04-03 13:51:48  INFO ZooKeeper:100 - Client environment:user.dir=/home/peng/workspace/realTimeCrawler
+2013-04-03 13:51:48  INFO ZooKeeper:438 - Initiating client connection, connectString=mota4:2181,mota5:2181,mota6:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@63a5ec6c
+2013-04-03 13:51:48  INFO ZooKeeper:438 - Initiating client connection, connectString=mota4:2181,mota5:2181,mota6:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@6e5dfaf1
+2013-04-03 13:51:49  INFO StatusCarwler:22 - 开启第 43 个线程
+2013-04-03 13:51:49  INFO SimpleCrawler:87 - 爬取微薄数: 197,重复微薄数: 0,重复率: 0.0%
+2013-04-03 13:51:49  INFO StatusCarwler:26 - 结束第 44 个线程，耗时: 7646ms
+2013-04-03 13:51:49  INFO StatusCarwler:22 - 开启第 44 个线程
+2013-04-03 13:51:49  INFO ClientCnxn:966 - Opening socket connection to server mota4.domain/192.168.70.14:2181. Will not attempt to authenticate using SASL (无法定位登录配置)
+2013-04-03 13:51:49  INFO ClientCnxn:966 - Opening socket connection to server mota4.domain/192.168.70.14:2181. Will not attempt to authenticate using SASL (无法定位登录配置)
+2013-04-03 13:51:49  INFO ClientCnxn:849 - Socket connection established to mota4.domain/192.168.70.14:2181, initiating session
+2013-04-03 13:51:49  INFO ClientCnxn:849 - Socket connection established to mota4.domain/192.168.70.14:2181, initiating session
+2013-04-03 13:51:49  INFO StatusCarwler:22 - 开启第 45 个线程
+2013-04-03 13:51:49  INFO ClientCnxn:1207 - Session establishment complete on server mota4.domain/192.168.70.14:2181, sessionid = 0x43dcdacf9bb64f2, negotiated timeout = 6000
+2013-04-03 13:51:49  INFO ClientCnxn:1207 - Session establishment complete on server mota4.domain/192.168.70.14:2181, sessionid = 0x43dcdacf9bb64f3, negotiated timeout = 6000
+2013-04-03 13:51:49  INFO ZkClient:449 - zookeeper state changed (SyncConnected)
+2013-04-03 13:51:49  INFO ZkClient:449 - zookeeper state changed (SyncConnected)
+2013-04-03 13:51:49  INFO SimpleCrawler:87 - 爬取微薄数: 192,重复微薄数: 0,重复率: 0.0%
+2013-04-03 13:51:49  INFO StatusCarwler:26 - 结束第 46 个线程，耗时: 7026ms
+2013-04-03 13:51:49  INFO SimpleCrawler:87 - 爬取微薄数: 197,重复微薄数: 0,重复率: 0.0%
+2013-04-03 13:51:49  INFO StatusCarwler:26 - 结束第 46 个线程，耗时: 7878ms
+2013-04-03 13:51:49  INFO SimpleCrawler:87 - 爬取微薄数: 195,重复微薄数: 83,重复率: 42.564102%
+2013-04-03 13:51:49  INFO StatusCarwler:26 - 结束第 46 个线程，耗时: 6874ms
+2013-04-03 13:51:49  INFO SimpleCrawler:87 - 爬取微薄数: 197,重复微薄数: 0,重复率: 0.0%
+2013-04-03 13:51:49  INFO StatusCarwler:26 - 结束第 46 个线程，耗时: 7324ms
+2013-04-03 13:51:49  INFO StatusCarwler:22 - 开启第 46 个线程
+2013-04-03 13:51:49  INFO SimpleCrawler:87 - 爬取微薄数: 191,重复微薄数: 0,重复率: 0.0%
+2013-04-03 13:51:49  INFO StatusCarwler:26 - 结束第 47 个线程，耗时: 6707ms
+2013-04-03 13:51:50  INFO StatusCarwler:22 - 开启第 47 个线程
+2013-04-03 13:51:50  INFO SimpleCrawler:87 - 爬取微薄数: 198,重复微薄数: 0,重复率: 0.0%
+2013-04-03 13:51:50  INFO StatusCarwler:26 - 结束第 48 个线程，耗时: 8182ms
+2013-04-03 13:51:50  INFO SimpleCrawler:87 - 爬取微薄数: 199,重复微薄数: 0,重复率: 0.0%
+2013-04-03 13:51:50  INFO StatusCarwler:26 - 结束第 48 个线程，耗时: 7950ms
+2013-04-03 13:51:50  INFO StatusCarwler:22 - 开启第 48 个线程
+2013-04-03 13:51:50  INFO ZooKeeper:438 - Initiating client connection, connectString=mota4:2181,mota5:2181,mota6:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@9818f80
+2013-04-03 13:51:50  INFO ZkEventThread:64 - Starting ZkClient event thread.
+2013-04-03 13:51:50  INFO ClientCnxn:966 - Opening socket connection to server mota5.domain/192.168.70.15:2181. Will not attempt to authenticate using SASL (无法定位登录配置)
+2013-04-03 13:51:50  INFO StatusCarwler:22 - 开启第 49 个线程
+2013-04-03 13:51:50  INFO ClientCnxn:849 - Socket connection established to mota5.domain/192.168.70.15:2181, initiating session
+2013-04-03 13:51:50  INFO StatusCarwler:22 - 开启第 50 个线程
+2013-04-03 13:51:50  INFO ClientCnxn:1207 - Session establishment complete on server mota5.domain/192.168.70.15:2181, sessionid = 0x53dcde42b1b515e, negotiated timeout = 6000
+2013-04-03 13:51:50  INFO ZkClient:449 - zookeeper state changed (SyncConnected)
+2013-04-03 13:51:50  INFO StatusCarwler:22 - 开启第 51 个线程
+2013-04-03 13:51:51  INFO StatusCarwler:22 - 开启第 52 个线程
+2013-04-03 13:51:51  INFO StatusCarwler:22 - 开启第 53 个线程
+2013-04-03 13:51:51  INFO SimpleCrawler:87 - 爬取微薄数: 193,重复微薄数: 168,重复率: 87.04663%
+2013-04-03 13:51:51  INFO StatusCarwler:26 - 结束第 54 个线程，耗时: 10486ms
+2013-04-03 13:51:51  INFO StatusCarwler:22 - 开启第 54 个线程
+2013-04-03 13:51:51  INFO SimpleCrawler:87 - 爬取微薄数: 197,重复微薄数: 197,重复率: 100.0%
+2013-04-03 13:51:51  INFO StatusCarwler:26 - 结束第 55 个线程，耗时: 8373ms
+2013-04-03 13:51:51  INFO StatusCarwler:22 - 开启第 55 个线程
+2013-04-03 13:51:52  INFO SimpleCrawler:87 - 爬取微薄数: 196,重复微薄数: 196,重复率: 100.0%
+2013-04-03 13:51:52  INFO StatusCarwler:26 - 结束第 56 个线程，耗时: 7621ms
+2013-04-03 13:51:52  INFO StatusCarwler:22 - 开启第 56 个线程
+2013-04-03 13:51:52  INFO SimpleCrawler:87 - 爬取微薄数: 192,重复微薄数: 192,重复率: 100.0%
+2013-04-03 13:51:52  INFO StatusCarwler:26 - 结束第 57 个线程，耗时: 8810ms
+2013-04-03 13:51:53  INFO SimpleCrawler:87 - 爬取微薄数: 198,重复微薄数: 198,重复率: 100.0%
+2013-04-03 13:51:53  INFO StatusCarwler:26 - 结束第 57 个线程，耗时: 8431ms
+2013-04-03 13:51:53  INFO StatusCarwler:22 - 开启第 57 个线程
+2013-04-03 13:51:53  INFO SimpleCrawler:87 - 爬取微薄数: 198,重复微薄数: 0,重复率: 0.0%
+2013-04-03 13:51:53  INFO StatusCarwler:26 - 结束第 58 个线程，耗时: 10068ms
+2013-04-03 13:51:53  INFO StatusCarwler:22 - 开启第 58 个线程
+2013-04-03 13:51:53  INFO SimpleCrawler:87 - 爬取微薄数: 197,重复微薄数: 10,重复率: 5.076142%
+2013-04-03 13:51:53  INFO StatusCarwler:26 - 结束第 59 个线程，耗时: 12681ms
+2013-04-03 13:51:53  INFO SimpleCrawler:87 - 爬取微薄数: 198,重复微薄数: 0,重复率: 0.0%
+2013-04-03 13:51:53  INFO StatusCarwler:26 - 结束第 59 个线程，耗时: 9507ms
+2013-04-03 13:51:53  INFO SimpleCrawler:87 - 爬取微薄数: 197,重复微薄数: 197,重复率: 100.0%
+2013-04-03 13:51:53  INFO StatusCarwler:26 - 结束第 59 个线程，耗时: 8196ms
+2013-04-03 13:51:53  INFO StatusCarwler:22 - 开启第 59 个线程
+2013-04-03 13:51:53  INFO SimpleCrawler:87 - 爬取微薄数: 193,重复微薄数: 193,重复率: 100.0%
+2013-04-03 13:51:53  INFO StatusCarwler:26 - 结束第 60 个线程，耗时: 7535ms
+2013-04-03 13:51:53  INFO SimpleCrawler:87 - 爬取微薄数: 192,重复微薄数: 192,重复率: 100.0%
+2013-04-03 13:51:53  INFO StatusCarwler:26 - 结束第 60 个线程，耗时: 8635ms
+2013-04-03 13:51:53  INFO StatusCarwler:22 - 开启第 60 个线程
+2013-04-03 13:51:53  INFO SimpleCrawler:87 - 爬取微薄数: 192,重复微薄数: 192,重复率: 100.0%
+2013-04-03 13:51:53  INFO StatusCarwler:26 - 结束第 61 个线程，耗时: 7979ms
+2013-04-03 13:51:53  INFO ZooKeeper:438 - Initiating client connection, connectString=mota4:2181,mota5:2181,mota6:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@7b35ae7e
+2013-04-03 13:51:53  INFO ZkEventThread:64 - Starting ZkClient event thread.
+2013-04-03 13:51:53  INFO ClientCnxn:966 - Opening socket connection to server mota5.domain/192.168.70.15:2181. Will not attempt to authenticate using SASL (无法定位登录配置)
+2013-04-03 13:51:53  INFO ClientCnxn:849 - Socket connection established to mota5.domain/192.168.70.15:2181, initiating session
+2013-04-03 13:51:53  INFO ClientCnxn:1207 - Session establishment complete on server mota5.domain/192.168.70.15:2181, sessionid = 0x53dcde42b1b515f, negotiated timeout = 6000
+2013-04-03 13:51:53  INFO ZkClient:449 - zookeeper state changed (SyncConnected)
+2013-04-03 13:51:53  INFO SimpleCrawler:87 - 爬取微薄数: 197,重复微薄数: 197,重复率: 100.0%
+2013-04-03 13:51:53  INFO StatusCarwler:26 - 结束第 61 个线程，耗时: 6779ms
+2013-04-03 13:51:54  INFO SimpleCrawler:87 - 爬取微薄数: 197,重复微薄数: 71,重复率: 36.04061%
+2013-04-03 13:51:54  INFO StatusCarwler:26 - 结束第 61 个线程，耗时: 8588ms
+2013-04-03 13:51:54  INFO SimpleCrawler:87 - 爬取微薄数: 196,重复微薄数: 196,重复率: 100.0%
+2013-04-03 13:51:54  INFO StatusCarwler:26 - 结束第 61 个线程，耗时: 6820ms
+2013-04-03 13:51:54  INFO StatusCarwler:22 - 开启第 61 个线程
+2013-04-03 13:51:54  INFO StatusCarwler:22 - 开启第 62 个线程
+2013-04-03 13:51:54  INFO SimpleCrawler:87 - 爬取微薄数: 192,重复微薄数: 192,重复率: 100.0%
+2013-04-03 13:51:54  INFO StatusCarwler:26 - 结束第 63 个线程，耗时: 6731ms
+2013-04-03 13:51:54  INFO SimpleCrawler:87 - 爬取微薄数: 196,重复微薄数: 0,重复率: 0.0%
+2013-04-03 13:51:54  INFO StatusCarwler:26 - 结束第 63 个线程，耗时: 10153ms
+2013-04-03 13:51:54  INFO StatusCarwler:22 - 开启第 63 个线程
+2013-04-03 13:51:54  INFO SimpleCrawler:87 - 爬取微薄数: 196,重复微薄数: 78,重复率: 39.795918%
+2013-04-03 13:51:54  INFO StatusCarwler:26 - 结束第 64 个线程，耗时: 7802ms
+2013-04-03 13:51:54  INFO SimpleCrawler:87 - 爬取微薄数: 199,重复微薄数: 41,重复率: 20.603014%
+2013-04-03 13:51:54  INFO StatusCarwler:26 - 结束第 64 个线程，耗时: 8321ms
+2013-04-03 13:51:54  INFO StatusCarwler:22 - 开启第 64 个线程
+2013-04-03 13:51:54  INFO SimpleCrawler:87 - 爬取微薄数: 193,重复微薄数: 193,重复率: 100.0%
+2013-04-03 13:51:54  INFO StatusCarwler:26 - 结束第 65 个线程，耗时: 6470ms
+2013-04-03 13:51:54  INFO SimpleCrawler:87 - 爬取微薄数: 192,重复微薄数: 188,重复率: 97.91667%
+2013-04-03 13:51:54  INFO StatusCarwler:26 - 结束第 65 个线程，耗时: 6054ms
+2013-04-03 13:51:54  INFO SimpleCrawler:87 - 爬取微薄数: 195,重复微薄数: 195,重复率: 100.0%
+2013-04-03 13:51:54  INFO StatusCarwler:26 - 结束第 65 个线程，耗时: 5373ms
+2013-04-03 13:51:54  INFO ZooKeeper:438 - Initiating client connection, connectString=mota4:2181,mota5:2181,mota6:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@1343a083
+2013-04-03 13:51:54  INFO ZkEventThread:64 - Starting ZkClient event thread.
+2013-04-03 13:51:54  INFO StatusCarwler:22 - 开启第 65 个线程
+2013-04-03 13:51:54  INFO SimpleCrawler:87 - 爬取微薄数: 199,重复微薄数: 199,重复率: 100.0%
+2013-04-03 13:51:54  INFO StatusCarwler:26 - 结束第 66 个线程，耗时: 5350ms
+2013-04-03 13:51:54  INFO ClientCnxn:966 - Opening socket connection to server mota6.domain/192.168.70.16:2181. Will not attempt to authenticate using SASL (无法定位登录配置)
+2013-04-03 13:51:55  INFO ClientCnxn:849 - Socket connection established to mota6.domain/192.168.70.16:2181, initiating session
+2013-04-03 13:51:55  INFO StatusCarwler:22 - 开启第 66 个线程
+2013-04-03 13:51:55  INFO SimpleCrawler:87 - 爬取微薄数: 198,重复微薄数: 47,重复率: 23.737373%
+2013-04-03 13:51:55  INFO StatusCarwler:26 - 结束第 67 个线程，耗时: 7494ms
+2013-04-03 13:51:55  INFO SimpleCrawler:87 - 爬取微薄数: 195,重复微薄数: 0,重复率: 0.0%
+2013-04-03 13:51:55  INFO StatusCarwler:26 - 结束第 67 个线程，耗时: 6394ms
+2013-04-03 13:51:55  INFO ClientCnxn:1207 - Session establishment complete on server mota6.domain/192.168.70.16:2181, sessionid = 0x63dcdad071b6450, negotiated timeout = 6000
+2013-04-03 13:51:55  INFO ZkClient:449 - zookeeper state changed (SyncConnected)
+2013-04-03 13:51:55  INFO SimpleCrawler:87 - 爬取微薄数: 196,重复微薄数: 96,重复率: 48.97959%
+2013-04-03 13:51:55  INFO StatusCarwler:26 - 结束第 67 个线程，耗时: 7807ms
+2013-04-03 13:51:55  INFO SimpleCrawler:87 - 爬取微薄数: 196,重复微薄数: 196,重复率: 100.0%
+2013-04-03 13:51:55  INFO StatusCarwler:26 - 结束第 67 个线程，耗时: 5045ms
+2013-04-03 13:51:55  INFO SimpleCrawler:87 - 爬取微薄数: 197,重复微薄数: 105,重复率: 53.29949%
+2013-04-03 13:51:55  INFO StatusCarwler:26 - 结束第 67 个线程，耗时: 6748ms
+2013-04-03 13:51:55  INFO SimpleCrawler:87 - 爬取微薄数: 200,重复微薄数: 39,重复率: 19.5%
+2013-04-03 13:51:55  INFO StatusCarwler:26 - 结束第 67 个线程，耗时: 9092ms
+2013-04-03 13:51:55  INFO StatusCarwler:22 - 开启第 67 个线程
+2013-04-03 13:51:55  INFO SimpleCrawler:87 - 爬取微薄数: 198,重复微薄数: 198,重复率: 100.0%
+2013-04-03 13:51:55  INFO StatusCarwler:26 - 结束第 68 个线程，耗时: 5769ms
+2013-04-03 13:51:55  INFO SimpleCrawler:87 - 爬取微薄数: 192,重复微薄数: 192,重复率: 100.0%
+2013-04-03 13:51:55  INFO StatusCarwler:26 - 结束第 68 个线程，耗时: 5382ms
+2013-04-03 13:51:55  INFO SimpleCrawler:87 - 爬取微薄数: 200,重复微薄数: 200,重复率: 100.0%
+2013-04-03 13:51:55  INFO StatusCarwler:26 - 结束第 68 个线程，耗时: 5717ms
+2013-04-03 13:51:55  INFO StatusCarwler:22 - 开启第 68 个线程
+2013-04-03 13:51:55  INFO SimpleCrawler:87 - 爬取微薄数: 192,重复微薄数: 134,重复率: 69.79167%
+2013-04-03 13:51:55  INFO StatusCarwler:26 - 结束第 69 个线程，耗时: 7492ms
+2013-04-03 13:51:55  INFO SimpleCrawler:87 - 爬取微薄数: 195,重复微薄数: 195,重复率: 100.0%
+2013-04-03 13:51:55  INFO StatusCarwler:26 - 结束第 69 个线程，耗时: 4675ms
+2013-04-03 13:51:55  INFO SimpleCrawler:87 - 爬取微薄数: 199,重复微薄数: 199,重复率: 100.0%
+2013-04-03 13:51:55  INFO StatusCarwler:26 - 结束第 69 个线程，耗时: 4927ms
+2013-04-03 13:51:55  INFO SimpleCrawler:87 - 爬取微薄数: 195,重复微薄数: 195,重复率: 100.0%
+2013-04-03 13:51:55  INFO StatusCarwler:26 - 结束第 69 个线程，耗时: 4408ms
+2013-04-03 13:51:56  INFO SimpleCrawler:87 - 爬取微薄数: 199,重复微薄数: 199,重复率: 100.0%
+2013-04-03 13:51:56  INFO StatusCarwler:26 - 结束第 69 个线程，耗时: 5346ms
+2013-04-03 13:51:56  INFO StatusCarwler:22 - 开启第 69 个线程
+2013-04-03 13:51:56  INFO SimpleCrawler:87 - 爬取微薄数: 195,重复微薄数: 195,重复率: 100.0%
+2013-04-03 13:51:56  INFO StatusCarwler:26 - 结束第 70 个线程，耗时: 3350ms
+2013-04-03 13:51:56  INFO ProducerPool:61 - Creating sync producer for broker id = 6 at mota6:9092
+2013-04-03 13:51:56  INFO ProducerPool:61 - Creating sync producer for broker id = 7 at mota7:9092
+2013-04-03 13:51:56  INFO ProducerPool:61 - Creating sync producer for broker id = 5 at mota5:9092
+2013-04-03 13:51:56  INFO ProducerPool:61 - Creating sync producer for broker id = 6 at mota6:9092
+2013-04-03 13:51:56  INFO ProducerPool:61 - Creating sync producer for broker id = 7 at mota7:9092
+2013-04-03 13:51:56  INFO ProducerPool:61 - Creating sync producer for broker id = 5 at mota5:9092
+2013-04-03 13:51:56  INFO ProducerPool:61 - Creating sync producer for broker id = 6 at mota6:9092
+2013-04-03 13:51:56  INFO ProducerPool:61 - Creating sync producer for broker id = 7 at mota7:9092
+2013-04-03 13:51:56  INFO ProducerPool:61 - Creating sync producer for broker id = 5 at mota5:9092
+2013-04-03 13:51:56  INFO SimpleCrawler:87 - 爬取微薄数: 196,重复微薄数: 196,重复率: 100.0%
+2013-04-03 13:51:56  INFO StatusCarwler:26 - 结束第 70 个线程，耗时: 4556ms
+2013-04-03 13:51:56  INFO StatusCarwler:22 - 开启第 70 个线程
+2013-04-03 13:51:56  INFO SimpleCrawler:87 - 爬取微薄数: 198,重复微薄数: 198,重复率: 100.0%
+2013-04-03 13:51:56  INFO StatusCarwler:26 - 结束第 71 个线程，耗时: 4442ms
+2013-04-03 13:51:56  INFO SimpleCrawler:87 - 爬取微薄数: 192,重复微薄数: 192,重复率: 100.0%
+2013-04-03 13:51:56  INFO StatusCarwler:26 - 结束第 71 个线程，耗时: 3238ms
+2013-04-03 13:51:56  INFO StatusCarwler:22 - 开启第 71 个线程
+2013-04-03 13:51:56  INFO SimpleCrawler:87 - 爬取微薄数: 191,重复微薄数: 191,重复率: 100.0%
+2013-04-03 13:51:56  INFO StatusCarwler:26 - 结束第 72 个线程，耗时: 3083ms
+2013-04-03 13:51:56  INFO SimpleCrawler:87 - 爬取微薄数: 198,重复微薄数: 198,重复率: 100.0%
+2013-04-03 13:51:56  INFO StatusCarwler:26 - 结束第 72 个线程，耗时: 3554ms
+2013-04-03 13:51:56  INFO StatusCarwler:22 - 开启第 72 个线程
+2013-04-03 13:51:56  INFO StatusCarwler:22 - 开启第 73 个线程
+2013-04-03 13:51:57  INFO SimpleCrawler:87 - 爬取微薄数: 198,重复微薄数: 198,重复率: 100.0%
+2013-04-03 13:51:57  INFO StatusCarwler:26 - 结束第 74 个线程，耗时: 3321ms
+2013-04-03 13:51:57  INFO SimpleCrawler:87 - 爬取微薄数: 196,重复微薄数: 196,重复率: 100.0%
+2013-04-03 13:51:57  INFO StatusCarwler:26 - 结束第 74 个线程，耗时: 2984ms
+2013-04-03 13:51:57  INFO StatusCarwler:22 - 开启第 74 个线程
+2013-04-03 13:51:57  INFO SimpleCrawler:87 - 爬取微薄数: 192,重复微薄数: 192,重复率: 100.0%
+2013-04-03 13:51:57  INFO StatusCarwler:26 - 结束第 75 个线程，耗时: 2777ms
+2013-04-03 13:51:57  INFO StatusCarwler:22 - 开启第 75 个线程
+2013-04-03 13:51:57  INFO SimpleCrawler:87 - 爬取微薄数: 193,重复微薄数: 39,重复率: 20.207254%
+2013-04-03 13:51:57  INFO StatusCarwler:26 - 结束第 76 个线程，耗时: 3484ms
+2013-04-03 13:51:57  INFO SimpleCrawler:87 - 爬取微薄数: 192,重复微薄数: 192,重复率: 100.0%
+2013-04-03 13:51:57  INFO StatusCarwler:26 - 结束第 76 个线程，耗时: 3116ms
+2013-04-03 13:51:57  INFO SimpleCrawler:87 - 爬取微薄数: 197,重复微薄数: 0,重复率: 0.0%
+2013-04-03 13:51:57  INFO StatusCarwler:26 - 结束第 76 个线程，耗时: 2886ms
+2013-04-03 13:51:57  INFO SimpleCrawler:87 - 爬取微薄数: 192,重复微薄数: 192,重复率: 100.0%
+2013-04-03 13:51:57  INFO StatusCarwler:26 - 结束第 76 个线程，耗时: 2341ms
+2013-04-03 13:51:57  INFO ProducerPool:61 - Creating sync producer for broker id = 6 at mota6:9092
+2013-04-03 13:51:57  INFO ProducerPool:61 - Creating sync producer for broker id = 7 at mota7:9092
+2013-04-03 13:51:57  INFO ProducerPool:61 - Creating sync producer for broker id = 5 at mota5:9092
+2013-04-03 13:51:57  INFO SimpleCrawler:87 - 爬取微薄数: 195,重复微薄数: 195,重复率: 100.0%
+2013-04-03 13:51:57  INFO StatusCarwler:26 - 结束第 76 个线程，耗时: 2051ms
+2013-04-03 13:51:57  INFO ZooKeeper:438 - Initiating client connection, connectString=mota4:2181,mota5:2181,mota6:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@c191e4c
+2013-04-03 13:51:57  INFO ZkEventThread:64 - Starting ZkClient event thread.
+2013-04-03 13:51:57  INFO ClientCnxn:966 - Opening socket connection to server mota6.domain/192.168.70.16:2181. Will not attempt to authenticate using SASL (无法定位登录配置)
+2013-04-03 13:51:57  INFO StatusCarwler:22 - 开启第 76 个线程
+2013-04-03 13:51:57  INFO ClientCnxn:849 - Socket connection established to mota6.domain/192.168.70.16:2181, initiating session
+2013-04-03 13:51:57  INFO SimpleCrawler:87 - 爬取微薄数: 191,重复微薄数: 191,重复率: 100.0%
+2013-04-03 13:51:57  INFO StatusCarwler:26 - 结束第 77 个线程，耗时: 2311ms
+2013-04-03 13:51:57  INFO ClientCnxn:1207 - Session establishment complete on server mota6.domain/192.168.70.16:2181, sessionid = 0x63dcdad071b6456, negotiated timeout = 6000
+2013-04-03 13:51:57  INFO ZkClient:449 - zookeeper state changed (SyncConnected)
+2013-04-03 13:51:57  INFO SimpleCrawler:87 - 爬取微薄数: 198,重复微薄数: 198,重复率: 100.0%
+2013-04-03 13:51:57  INFO StatusCarwler:26 - 结束第 77 个线程，耗时: 1849ms
+2013-04-03 13:51:58  INFO SimpleCrawler:87 - 爬取微薄数: 192,重复微薄数: 192,重复率: 100.0%
+2013-04-03 13:51:58  INFO StatusCarwler:26 - 结束第 77 个线程，耗时: 1712ms
+2013-04-03 13:51:58  INFO StatusCarwler:22 - 开启第 77 个线程
+2013-04-03 13:51:58  INFO SimpleCrawler:87 - 爬取微薄数: 194,重复微薄数: 0,重复率: 0.0%
+2013-04-03 13:51:58  INFO StatusCarwler:26 - 结束第 78 个线程，耗时: 1312ms
+2013-04-03 13:51:58  INFO StatusCarwler:22 - 开启第 78 个线程
+2013-04-03 13:51:58  INFO StatusCarwler:22 - 开启第 79 个线程
+2013-04-03 13:51:58  INFO SimpleCrawler:87 - 爬取微薄数: 194,重复微薄数: 194,重复率: 100.0%
+2013-04-03 13:51:58  INFO StatusCarwler:26 - 结束第 80 个线程，耗时: 1626ms
+2013-04-03 13:51:58  INFO SimpleCrawler:87 - 爬取微薄数: 196,重复微薄数: 87,重复率: 44.387756%
+2013-04-03 13:51:58  INFO StatusCarwler:26 - 结束第 80 个线程，耗时: 2130ms
+2013-04-03 13:51:58  INFO SimpleCrawler:87 - 爬取微薄数: 197,重复微薄数: 197,重复率: 100.0%
+2013-04-03 13:51:58  INFO StatusCarwler:26 - 结束第 80 个线程，耗时: 1421ms
+2013-04-03 13:51:58  INFO StatusCarwler:22 - 开启第 80 个线程
+2013-04-03 13:51:58  INFO SyncProducer:61 - Connected to mota7:9092 for producing
+2013-04-03 13:51:58  INFO SyncProducer:61 - Connected to mota5:9092 for producing
+2013-04-03 13:51:58  INFO SyncProducer:61 - Connected to mota5:9092 for producing
+2013-04-03 13:51:58  INFO SimpleCrawler:87 - 爬取微薄数: 192,重复微薄数: 192,重复率: 100.0%
+2013-04-03 13:51:58  INFO StatusCarwler:26 - 结束第 81 个线程，耗时: 1080ms
+2013-04-03 13:51:58  INFO StatusCarwler:22 - 开启第 81 个线程
+2013-04-03 13:51:58  INFO SyncProducer:61 - Connected to mota6:9092 for producing
+2013-04-03 13:51:58  INFO SyncProducer:61 - Connected to mota7:9092 for producing
+2013-04-03 13:51:59  INFO StatusCarwler:22 - 开启第 82 个线程
+2013-04-03 13:51:59  INFO SyncProducer:61 - Connected to mota7:9092 for producing
+2013-04-03 13:51:59  INFO Producer:62 - 插入kafka数据成功,共有：847  时间: 5.367
+2013-04-03 13:51:59  INFO ProducerPool:61 - Closing all sync producers
+2013-04-03 13:51:59  INFO SyncProducer:61 - Connected to mota6:9092 for producing
+2013-04-03 13:51:59  INFO SyncProducer:61 - Disconnecting from mota6:9092
+2013-04-03 13:51:59  INFO SyncProducer:61 - Disconnecting from mota5:9092
+2013-04-03 13:51:59  INFO SyncProducer:61 - Disconnecting from mota7:9092
+2013-04-03 13:51:59  INFO ZkEventThread:82 - Terminate ZkClient event thread.
+2013-04-03 13:51:59  INFO SyncProducer:61 - Connected to mota6:9092 for producing
+2013-04-03 13:51:59  INFO ProducerPool:61 - Creating sync producer for broker id = 6 at mota6:9092
+2013-04-03 13:51:59  INFO ProducerPool:61 - Creating sync producer for broker id = 7 at mota7:9092
+2013-04-03 13:51:59  INFO ProducerPool:61 - Creating sync producer for broker id = 5 at mota5:9092
+2013-04-03 13:51:59  INFO StatusCarwler:22 - 开启第 83 个线程
+2013-04-03 13:51:59  INFO ZooKeeper:684 - Session: 0x53dcde42b1b515f closed
+2013-04-03 13:51:59  INFO ClientCnxn:509 - EventThread shut down
+2013-04-03 13:51:59  INFO Producer:62 - 插入kafka数据成功,共有：1198  时间: 13.399
+2013-04-03 13:51:59  INFO ProducerPool:61 - Closing all sync producers
+2013-04-03 13:51:59  INFO SyncProducer:61 - Disconnecting from mota6:9092
+2013-04-03 13:51:59  INFO SyncProducer:61 - Disconnecting from mota5:9092
+2013-04-03 13:51:59  INFO SyncProducer:61 - Disconnecting from mota7:9092
+2013-04-03 13:51:59  INFO ZkEventThread:82 - Terminate ZkClient event thread.
+2013-04-03 13:51:59  INFO ZooKeeper:684 - Session: 0x43dcdacf9bb64f3 closed
+2013-04-03 13:51:59  INFO ClientCnxn:509 - EventThread shut down
+2013-04-03 13:51:59  INFO StatusCarwler:22 - 开启第 84 个线程
+2013-04-03 13:51:59  INFO SyncProducer:61 - Connected to mota5:9092 for producing
+2013-04-03 13:51:59  INFO SyncProducer:61 - Connected to mota6:9092 for producing
+2013-04-03 13:51:59  INFO SimpleCrawler:87 - 爬取微薄数: 195,重复微薄数: 195,重复率: 100.0%
+2013-04-03 13:51:59  INFO StatusCarwler:26 - 结束第 85 个线程，耗时: 1407ms
+2013-04-03 13:51:59  INFO SimpleCrawler:87 - 爬取微薄数: 196,重复微薄数: 196,重复率: 100.0%
+2013-04-03 13:51:59  INFO StatusCarwler:26 - 结束第 85 个线程，耗时: 1632ms
+2013-04-03 13:51:59  INFO StatusCarwler:22 - 开启第 85 个线程
+2013-04-03 13:51:59  INFO SyncProducer:61 - Connected to mota6:9092 for producing
+2013-04-03 13:51:59  INFO Producer:62 - 插入kafka数据成功,共有：1219  时间: 11.484
+2013-04-03 13:51:59  INFO ProducerPool:61 - Closing all sync producers
+2013-04-03 13:51:59  INFO SyncProducer:61 - Disconnecting from mota6:9092
+2013-04-03 13:51:59  INFO SyncProducer:61 - Disconnecting from mota5:9092
+2013-04-03 13:51:59  INFO SyncProducer:61 - Disconnecting from mota7:9092
+2013-04-03 13:51:59  INFO ZkEventThread:82 - Terminate ZkClient event thread.
+2013-04-03 13:51:59  INFO SyncProducer:61 - Connected to mota5:9092 for producing
+2013-04-03 13:51:59  INFO ZooKeeper:684 - Session: 0x43dcdacf9bb64f2 closed
+2013-04-03 13:51:59  INFO ClientCnxn:509 - EventThread shut down
+2013-04-03 13:51:59  INFO SyncProducer:61 - Connected to mota5:9092 for producing
+2013-04-03 13:51:59  INFO SimpleCrawler:87 - 爬取微薄数: 196,重复微薄数: 196,重复率: 100.0%
+2013-04-03 13:51:59  INFO StatusCarwler:26 - 结束第 86 个线程，耗时: 1986ms
+2013-04-03 13:51:59  INFO SyncProducer:61 - Connected to mota7:9092 for producing
+2013-04-03 13:51:59  INFO Producer:62 - 插入kafka数据成功,共有：746  时间: 9.464
+2013-04-03 13:51:59  INFO ProducerPool:61 - Closing all sync producers
+2013-04-03 13:51:59  INFO SyncProducer:61 - Disconnecting from mota6:9092
+2013-04-03 13:51:59  INFO SyncProducer:61 - Disconnecting from mota5:9092
+2013-04-03 13:51:59  INFO SyncProducer:61 - Disconnecting from mota7:9092
+2013-04-03 13:51:59  INFO ZkEventThread:82 - Terminate ZkClient event thread.
+2013-04-03 13:51:59  INFO ZooKeeper:684 - Session: 0x53dcde42b1b515e closed
+2013-04-03 13:51:59  INFO ClientCnxn:509 - EventThread shut down
+2013-04-03 13:51:59  INFO StatusCarwler:22 - 开启第 86 个线程
+2013-04-03 13:51:59  INFO SyncProducer:61 - Connected to mota7:9092 for producing
+2013-04-03 13:51:59  INFO Producer:62 - 插入kafka数据成功,共有：741  时间: 5.166
+2013-04-03 13:51:59  INFO ProducerPool:61 - Closing all sync producers
+2013-04-03 13:51:59  INFO SyncProducer:61 - Disconnecting from mota6:9092
+2013-04-03 13:51:59  INFO SyncProducer:61 - Disconnecting from mota5:9092
+2013-04-03 13:51:59  INFO SyncProducer:61 - Disconnecting from mota7:9092
+2013-04-03 13:51:59  INFO ZkEventThread:82 - Terminate ZkClient event thread.
+2013-04-03 13:51:59  INFO ZooKeeper:684 - Session: 0x63dcdad071b6450 closed
+2013-04-03 13:51:59  INFO ClientCnxn:509 - EventThread shut down
+2013-04-03 13:51:59  INFO SimpleCrawler:87 - 爬取微薄数: 196,重复微薄数: 196,重复率: 100.0%
+2013-04-03 13:51:59  INFO StatusCarwler:26 - 结束第 87 个线程，耗时: 1511ms
+2013-04-03 13:52:00  INFO SimpleCrawler:87 - 爬取微薄数: 193,重复微薄数: 193,重复率: 100.0%
+2013-04-03 13:52:00  INFO StatusCarwler:26 - 结束第 87 个线程，耗时: 1218ms
+2013-04-03 13:52:00  INFO StatusCarwler:22 - 开启第 87 个线程
+2013-04-03 13:52:00  INFO SimpleCrawler:87 - 爬取微薄数: 195,重复微薄数: 195,重复率: 100.0%
+2013-04-03 13:52:00  INFO StatusCarwler:26 - 结束第 88 个线程，耗时: 918ms
+2013-04-03 13:52:00  INFO StatusCarwler:22 - 开启第 88 个线程
+2013-04-03 13:52:00  INFO SimpleCrawler:87 - 爬取微薄数: 196,重复微薄数: 196,重复率: 100.0%
+2013-04-03 13:52:00  INFO StatusCarwler:26 - 结束第 89 个线程，耗时: 902ms
+2013-04-03 13:52:00  INFO StatusCarwler:22 - 开启第 89 个线程
+2013-04-03 13:52:00  INFO SimpleCrawler:87 - 爬取微薄数: 192,重复微薄数: 192,重复率: 100.0%
+2013-04-03 13:52:00  INFO StatusCarwler:26 - 结束第 90 个线程，耗时: 846ms
+2013-04-03 13:52:00  INFO StatusCarwler:22 - 开启第 90 个线程
+2013-04-03 13:52:00  INFO SimpleCrawler:87 - 爬取微薄数: 192,重复微薄数: 192,重复率: 100.0%
+2013-04-03 13:52:00  INFO StatusCarwler:26 - 结束第 91 个线程，耗时: 2130ms
+2013-04-03 13:52:00  INFO SimpleCrawler:87 - 爬取微薄数: 195,重复微薄数: 195,重复率: 100.0%
+2013-04-03 13:52:00  INFO StatusCarwler:26 - 结束第 91 个线程，耗时: 1760ms
+2013-04-03 13:52:00  INFO SimpleCrawler:87 - 爬取微薄数: 192,重复微薄数: 192,重复率: 100.0%
+2013-04-03 13:52:00  INFO StatusCarwler:26 - 结束第 91 个线程，耗时: 778ms
+2013-04-03 13:52:00  INFO StatusCarwler:22 - 开启第 91 个线程
+2013-04-03 13:52:01  INFO SimpleCrawler:87 - 爬取微薄数: 197,重复微薄数: 197,重复率: 100.0%
+2013-04-03 13:52:01  INFO StatusCarwler:26 - 结束第 92 个线程，耗时: 798ms
+2013-04-03 13:52:01  INFO StatusCarwler:22 - 开启第 92 个线程
+2013-04-03 13:52:01  INFO SimpleCrawler:87 - 爬取微薄数: 196,重复微薄数: 196,重复率: 100.0%
+2013-04-03 13:52:01  INFO StatusCarwler:26 - 结束第 93 个线程，耗时: 709ms
+2013-04-03 13:52:01  INFO SimpleCrawler:87 - 爬取微薄数: 192,重复微薄数: 192,重复率: 100.0%
+2013-04-03 13:52:01  INFO StatusCarwler:26 - 结束第 93 个线程，耗时: 1415ms
+2013-04-03 13:52:01  INFO StatusCarwler:22 - 开启第 93 个线程
+2013-04-03 13:52:01  INFO ProducerPool:61 - Creating sync producer for broker id = 6 at mota6:9092
+2013-04-03 13:52:01  INFO ProducerPool:61 - Creating sync producer for broker id = 7 at mota7:9092
+2013-04-03 13:52:01  INFO ProducerPool:61 - Creating sync producer for broker id = 5 at mota5:9092
+2013-04-03 13:52:01  INFO SyncProducer:61 - Connected to mota7:9092 for producing
+2013-04-03 13:52:01  INFO SyncProducer:61 - Connected to mota5:9092 for producing
+2013-04-03 13:52:01  INFO StatusCarwler:22 - 开启第 94 个线程
+2013-04-03 13:52:01  INFO SyncProducer:61 - Connected to mota6:9092 for producing
+2013-04-03 13:52:01  INFO Producer:62 - 插入kafka数据成功,共有：561  时间: 3.81
+2013-04-03 13:52:01  INFO ProducerPool:61 - Closing all sync producers
+2013-04-03 13:52:01  INFO SyncProducer:61 - Disconnecting from mota6:9092
+2013-04-03 13:52:01  INFO SyncProducer:61 - Disconnecting from mota5:9092
+2013-04-03 13:52:01  INFO SyncProducer:61 - Disconnecting from mota7:9092
+2013-04-03 13:52:01  INFO ZkEventThread:82 - Terminate ZkClient event thread.
+2013-04-03 13:52:01  INFO SimpleCrawler:87 - 爬取微薄数: 197,重复微薄数: 197,重复率: 100.0%
+2013-04-03 13:52:01  INFO StatusCarwler:26 - 结束第 95 个线程，耗时: 887ms
+2013-04-03 13:52:01  INFO ZooKeeper:684 - Session: 0x63dcdad071b6456 closed
+2013-04-03 13:52:01  INFO ClientCnxn:509 - EventThread shut down
+2013-04-03 13:52:01  INFO StatusCarwler:22 - 开启第 95 个线程
+2013-04-03 13:52:01  INFO SimpleCrawler:87 - 爬取微薄数: 196,重复微薄数: 196,重复率: 100.0%
+2013-04-03 13:52:01  INFO StatusCarwler:26 - 结束第 96 个线程，耗时: 840ms
+2013-04-03 13:52:01  INFO SimpleCrawler:87 - 爬取微薄数: 194,重复微薄数: 194,重复率: 100.0%
+2013-04-03 13:52:01  INFO StatusCarwler:26 - 结束第 96 个线程，耗时: 699ms
+2013-04-03 13:52:01  INFO StatusCarwler:22 - 开启第 96 个线程
+2013-04-03 13:52:02  INFO StatusCarwler:22 - 开启第 97 个线程
+2013-04-03 13:52:02  INFO SimpleCrawler:87 - 爬取微薄数: 194,重复微薄数: 194,重复率: 100.0%
+2013-04-03 13:52:02  INFO StatusCarwler:26 - 结束第 98 个线程，耗时: 744ms
+2013-04-03 13:52:02  INFO StatusCarwler:22 - 开启第 98 个线程
+2013-04-03 13:52:02  INFO StatusCarwler:22 - 开启第 99 个线程
+2013-04-03 13:52:02  INFO SimpleCrawler:87 - 爬取微薄数: 194,重复微薄数: 194,重复率: 100.0%
+2013-04-03 13:52:02  INFO StatusCarwler:26 - 结束第 100 个线程，耗时: 811ms
+2013-04-03 13:52:02  INFO StatusCarwler:22 - 开启第 100 个线程
+2013-04-03 13:52:02  INFO SimpleCrawler:87 - 爬取微薄数: 199,重复微薄数: 199,重复率: 100.0%
+2013-04-03 13:52:02  INFO StatusCarwler:26 - 结束第 101 个线程，耗时: 1487ms
+2013-04-03 13:52:02  INFO StatusCarwler:22 - 开启第 101 个线程
+2013-04-03 13:52:03  INFO StatusCarwler:22 - 开启第 102 个线程
+2013-04-03 13:52:03  INFO StatusCarwler:22 - 开启第 103 个线程
+2013-04-03 13:52:03  INFO SimpleCrawler:87 - 爬取微薄数: 194,重复微薄数: 194,重复率: 100.0%
+2013-04-03 13:52:03  INFO StatusCarwler:26 - 结束第 104 个线程，耗时: 1459ms
+2013-04-03 13:52:03  INFO SimpleCrawler:87 - 爬取微薄数: 196,重复微薄数: 196,重复率: 100.0%
+2013-04-03 13:52:03  INFO StatusCarwler:26 - 结束第 104 个线程，耗时: 1367ms
+2013-04-03 13:52:03  INFO StatusCarwler:22 - 开启第 104 个线程
+2013-04-03 13:52:03  INFO SimpleCrawler:87 - 爬取微薄数: 193,重复微薄数: 193,重复率: 100.0%
+2013-04-03 13:52:03  INFO StatusCarwler:26 - 结束第 105 个线程，耗时: 1365ms
+2013-04-03 13:52:03  INFO StatusCarwler:22 - 开启第 105 个线程
+2013-04-03 13:52:03  INFO SimpleCrawler:87 - 爬取微薄数: 196,重复微薄数: 196,重复率: 100.0%
+2013-04-03 13:52:03  INFO StatusCarwler:26 - 结束第 106 个线程，耗时: 1230ms
+2013-04-03 13:52:03  INFO StatusCarwler:22 - 开启第 106 个线程
+2013-04-03 13:52:04  INFO StatusCarwler:22 - 开启第 107 个线程
+2013-04-03 13:52:04  INFO StatusCarwler:22 - 开启第 108 个线程
+2013-04-03 13:52:04  INFO StatusCarwler:22 - 开启第 109 个线程
+2013-04-03 13:52:04  INFO StatusCarwler:22 - 开启第 110 个线程
+2013-04-03 13:52:04  INFO SimpleCrawler:87 - 爬取微薄数: 199,重复微薄数: 199,重复率: 100.0%
+2013-04-03 13:52:04  INFO StatusCarwler:26 - 结束第 111 个线程，耗时: 2184ms
+2013-04-03 13:52:04  INFO StatusCarwler:22 - 开启第 111 个线程
+2013-04-03 13:52:04  INFO SimpleCrawler:87 - 爬取微薄数: 196,重复微薄数: 196,重复率: 100.0%
+2013-04-03 13:52:04  INFO StatusCarwler:26 - 结束第 112 个线程，耗时: 1636ms
+2013-04-03 13:52:05  INFO SimpleCrawler:87 - 爬取微薄数: 199,重复微薄数: 199,重复率: 100.0%
+2013-04-03 13:52:05  INFO StatusCarwler:26 - 结束第 112 个线程，耗时: 1302ms
+2013-04-03 13:52:05  INFO StatusCarwler:22 - 开启第 112 个线程
+2013-04-03 13:52:05  INFO StatusCarwler:22 - 开启第 113 个线程
+2013-04-03 13:52:05  INFO SimpleCrawler:87 - 爬取微薄数: 191,重复微薄数: 191,重复率: 100.0%
+2013-04-03 13:52:05  INFO StatusCarwler:26 - 结束第 114 个线程，耗时: 1936ms
+2013-04-03 13:52:05  INFO StatusCarwler:22 - 开启第 114 个线程
+2013-04-03 13:52:05  INFO StatusCarwler:22 - 开启第 115 个线程
+2013-04-03 13:52:05  INFO SimpleCrawler:87 - 爬取微薄数: 197,重复微薄数: 125,重复率: 63.45178%
+2013-04-03 13:52:05  INFO StatusCarwler:26 - 结束第 116 个线程，耗时: 2642ms
+2013-04-03 13:52:05  INFO SimpleCrawler:87 - 爬取微薄数: 191,重复微薄数: 191,重复率: 100.0%
+2013-04-03 13:52:05  INFO StatusCarwler:26 - 结束第 116 个线程，耗时: 1957ms
+2013-04-03 13:52:05  INFO StatusCarwler:22 - 开启第 116 个线程
+2013-04-03 13:52:06  INFO StatusCarwler:22 - 开启第 117 个线程
+2013-04-03 13:52:06  INFO StatusCarwler:22 - 开启第 118 个线程
+2013-04-03 13:52:06  INFO SimpleCrawler:87 - 爬取微薄数: 198,重复微薄数: 198,重复率: 100.0%
+2013-04-03 13:52:06  INFO StatusCarwler:26 - 结束第 119 个线程，耗时: 1507ms
+2013-04-03 13:52:06  INFO StatusCarwler:22 - 开启第 119 个线程
+2013-04-03 13:52:06  INFO StatusCarwler:22 - 开启第 120 个线程
+2013-04-03 13:52:06  INFO SimpleCrawler:87 - 爬取微薄数: 197,重复微薄数: 197,重复率: 100.0%
+2013-04-03 13:52:06  INFO SimpleCrawler:87 - 爬取微薄数: 194,重复微薄数: 0,重复率: 0.0%
+2013-04-03 13:52:06  INFO StatusCarwler:26 - 结束第 121 个线程，耗时: 1632ms
+2013-04-03 13:52:06  INFO StatusCarwler:26 - 结束第 121 个线程，耗时: 3836ms
+2013-04-03 13:52:06  INFO StatusCarwler:22 - 开启第 121 个线程
+2013-04-03 13:52:07  INFO SimpleCrawler:87 - 爬取微薄数: 190,重复微薄数: 190,重复率: 100.0%
+2013-04-03 13:52:07  INFO StatusCarwler:26 - 结束第 122 个线程，耗时: 2370ms
+2013-04-03 13:52:07  INFO StatusCarwler:22 - 开启第 122 个线程
+2013-04-03 13:52:07  INFO SimpleCrawler:87 - 爬取微薄数: 199,重复微薄数: 199,重复率: 100.0%
+2013-04-03 13:52:07  INFO StatusCarwler:26 - 结束第 123 个线程，耗时: 2613ms
+2013-04-03 13:52:07  INFO SimpleCrawler:87 - 爬取微薄数: 196,重复微薄数: 196,重复率: 100.0%
+2013-04-03 13:52:07  INFO StatusCarwler:26 - 结束第 123 个线程，耗时: 1724ms
+2013-04-03 13:52:07  INFO StatusCarwler:22 - 开启第 123 个线程
+2013-04-03 13:52:07  INFO StatusCarwler:22 - 开启第 124 个线程
+2013-04-03 13:52:07  INFO SimpleCrawler:87 - 爬取微薄数: 192,重复微薄数: 192,重复率: 100.0%
+2013-04-03 13:52:07  INFO StatusCarwler:26 - 结束第 125 个线程，耗时: 3478ms
+2013-04-03 13:52:07  INFO ZkEventThread:64 - Starting ZkClient event thread.
+2013-04-03 13:52:07  INFO ZooKeeper:438 - Initiating client connection, connectString=mota4:2181,mota5:2181,mota6:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@233dcd27
+2013-04-03 13:52:07  INFO ClientCnxn:966 - Opening socket connection to server mota6.domain/192.168.70.16:2181. Will not attempt to authenticate using SASL (无法定位登录配置)
+2013-04-03 13:52:07  INFO StatusCarwler:22 - 开启第 125 个线程
+2013-04-03 13:52:07  INFO SimpleCrawler:87 - 爬取微薄数: 192,重复微薄数: 192,重复率: 100.0%
+2013-04-03 13:52:07  INFO StatusCarwler:26 - 结束第 126 个线程，耗时: 3519ms
+2013-04-03 13:52:07  INFO ClientCnxn:849 - Socket connection established to mota6.domain/192.168.70.16:2181, initiating session
+2013-04-03 13:52:07  INFO StatusCarwler:22 - 开启第 126 个线程
+2013-04-03 13:52:08  INFO ClientCnxn:1207 - Session establishment complete on server mota6.domain/192.168.70.16:2181, sessionid = 0x63dcdad071b646d, negotiated timeout = 6000
+2013-04-03 13:52:08  INFO ZkClient:449 - zookeeper state changed (SyncConnected)
+2013-04-03 13:52:08  INFO SimpleCrawler:87 - 爬取微薄数: 192,重复微薄数: 192,重复率: 100.0%
+2013-04-03 13:52:08  INFO StatusCarwler:26 - 结束第 127 个线程，耗时: 1710ms
+2013-04-03 13:52:08  INFO StatusCarwler:22 - 开启第 127 个线程
+2013-04-03 13:52:08  INFO SimpleCrawler:87 - 爬取微薄数: 192,重复微薄数: 192,重复率: 100.0%
+2013-04-03 13:52:08  INFO StatusCarwler:26 - 结束第 128 个线程，耗时: 2489ms
+2013-04-03 13:52:08  INFO StatusCarwler:22 - 开启第 128 个线程
+2013-04-03 13:52:08  INFO StatusCarwler:22 - 开启第 129 个线程
+2013-04-03 13:52:08  INFO SimpleCrawler:87 - 爬取微薄数: 191,重复微薄数: 191,重复率: 100.0%
+2013-04-03 13:52:08  INFO StatusCarwler:26 - 结束第 130 个线程，耗时: 1941ms
+2013-04-03 13:52:08  INFO SimpleCrawler:87 - 爬取微薄数: 195,重复微薄数: 195,重复率: 100.0%
+2013-04-03 13:52:08  INFO StatusCarwler:26 - 结束第 130 个线程，耗时: 2794ms
+2013-04-03 13:52:08  INFO StatusCarwler:22 - 开启第 130 个线程
+2013-04-03 13:52:08  INFO SimpleCrawler:87 - 爬取微薄数: 193,重复微薄数: 57,重复率: 29.533678%
+2013-04-03 13:52:08  INFO StatusCarwler:26 - 结束第 131 个线程，耗时: 2343ms
+2013-04-03 13:52:08  INFO StatusCarwler:22 - 开启第 131 个线程
+2013-04-03 13:52:08  INFO SimpleCrawler:87 - 爬取微薄数: 197,重复微薄数: 197,重复率: 100.0%
+2013-04-03 13:52:08  INFO StatusCarwler:26 - 结束第 132 个线程，耗时: 1634ms
+2013-04-03 13:52:09  INFO SimpleCrawler:87 - 爬取微薄数: 194,重复微薄数: 194,重复率: 100.0%
+2013-04-03 13:52:09  INFO StatusCarwler:26 - 结束第 132 个线程，耗时: 3721ms
+2013-04-03 13:52:09  INFO SimpleCrawler:87 - 爬取微薄数: 197,重复微薄数: 197,重复率: 100.0%
+2013-04-03 13:52:09  INFO StatusCarwler:26 - 结束第 132 个线程，耗时: 3002ms
+2013-04-03 13:52:09  INFO StatusCarwler:22 - 开启第 132 个线程
+2013-04-03 13:52:09  INFO SimpleCrawler:87 - 爬取微薄数: 196,重复微薄数: 37,重复率: 18.87755%
+2013-04-03 13:52:09  INFO StatusCarwler:26 - 结束第 133 个线程，耗时: 2176ms
+2013-04-03 13:52:09  INFO StatusCarwler:22 - 开启第 133 个线程
+2013-04-03 13:52:09  INFO SimpleCrawler:87 - 爬取微薄数: 194,重复微薄数: 194,重复率: 100.0%
+2013-04-03 13:52:09  INFO StatusCarwler:26 - 结束第 134 个线程，耗时: 1872ms
+2013-04-03 13:52:09  INFO StatusCarwler:22 - 开启第 134 个线程
+2013-04-03 13:52:09  INFO SimpleCrawler:87 - 爬取微薄数: 195,重复微薄数: 195,重复率: 100.0%
+2013-04-03 13:52:09  INFO StatusCarwler:26 - 结束第 135 个线程，耗时: 1833ms
+2013-04-03 13:52:09  INFO StatusCarwler:22 - 开启第 135 个线程
+2013-04-03 13:52:09  INFO StatusCarwler:22 - 开启第 136 个线程
+2013-04-03 13:52:10  INFO SimpleCrawler:87 - 爬取微薄数: 199,重复微薄数: 199,重复率: 100.0%
+2013-04-03 13:52:10  INFO StatusCarwler:26 - 结束第 137 个线程，耗时: 1322ms
+2013-04-03 13:52:10  INFO StatusCarwler:22 - 开启第 137 个线程
+2013-04-03 13:52:10  INFO SimpleCrawler:87 - 爬取微薄数: 193,重复微薄数: 193,重复率: 100.0%
+2013-04-03 13:52:10  INFO StatusCarwler:26 - 结束第 138 个线程，耗时: 1656ms
+2013-04-03 13:52:10  INFO StatusCarwler:22 - 开启第 138 个线程
+2013-04-03 13:52:10  INFO StatusCarwler:22 - 开启第 139 个线程
+2013-04-03 13:52:10  INFO StatusCarwler:22 - 开启第 140 个线程
+2013-04-03 13:52:10  INFO SimpleCrawler:87 - 爬取微薄数: 190,重复微薄数: 190,重复率: 100.0%
+2013-04-03 13:52:10  INFO StatusCarwler:26 - 结束第 141 个线程，耗时: 1358ms
+2013-04-03 13:52:10  INFO StatusCarwler:22 - 开启第 141 个线程
+2013-04-03 13:52:11  INFO StatusCarwler:22 - 开启第 142 个线程
+2013-04-03 13:52:11  INFO SimpleCrawler:87 - 爬取微薄数: 198,重复微薄数: 198,重复率: 100.0%
+2013-04-03 13:52:11  INFO StatusCarwler:26 - 结束第 143 个线程，耗时: 2073ms
+2013-04-03 13:52:11  INFO StatusCarwler:22 - 开启第 143 个线程
+2013-04-03 13:52:11  INFO SimpleCrawler:87 - 爬取微薄数: 195,重复微薄数: 195,重复率: 100.0%
+2013-04-03 13:52:11  INFO StatusCarwler:26 - 结束第 144 个线程，耗时: 3489ms
+2013-04-03 13:52:11  INFO StatusCarwler:22 - 开启第 144 个线程
+2013-04-03 13:52:11  INFO SimpleCrawler:87 - 爬取微薄数: 196,重复微薄数: 196,重复率: 100.0%
+2013-04-03 13:52:11  INFO StatusCarwler:26 - 结束第 145 个线程，耗时: 1785ms
+2013-04-03 13:52:11  INFO SimpleCrawler:87 - 爬取微薄数: 196,重复微薄数: 196,重复率: 100.0%
+2013-04-03 13:52:11  INFO StatusCarwler:26 - 结束第 145 个线程，耗时: 2398ms
+2013-04-03 13:52:11  INFO StatusCarwler:22 - 开启第 145 个线程
+2013-04-03 13:52:11  INFO SimpleCrawler:87 - 爬取微薄数: 190,重复微薄数: 190,重复率: 100.0%
+2013-04-03 13:52:11  INFO StatusCarwler:26 - 结束第 146 个线程，耗时: 3614ms
+2013-04-03 13:52:11  INFO StatusCarwler:22 - 开启第 146 个线程
+2013-04-03 13:52:12  INFO StatusCarwler:22 - 开启第 147 个线程
+2013-04-03 13:52:12  INFO SimpleCrawler:87 - 爬取微薄数: 191,重复微薄数: 191,重复率: 100.0%
+2013-04-03 13:52:12  INFO StatusCarwler:26 - 结束第 148 个线程，耗时: 3391ms
+2013-04-03 13:52:12  INFO StatusCarwler:22 - 开启第 148 个线程
+2013-04-03 13:52:12  INFO SimpleCrawler:87 - 爬取微薄数: 193,重复微薄数: 193,重复率: 100.0%
+2013-04-03 13:52:12  INFO StatusCarwler:26 - 结束第 149 个线程，耗时: 4166ms
+2013-04-03 13:52:12  INFO StatusCarwler:22 - 开启第 149 个线程
+2013-04-03 13:52:12  INFO StatusCarwler:22 - 开启第 150 个线程
+2013-04-03 13:52:12  INFO SocialClient:91 - userRemaining
+2013-04-03 13:52:12  INFO SimpleCrawler:87 - 爬取微薄数: 193,重复微薄数: 193,重复率: 100.0%
+2013-04-03 13:52:12  INFO StatusCarwler:26 - 结束第 151 个线程，耗时: 3079ms
+2013-04-03 13:52:12  INFO SimpleCrawler:87 - 爬取微薄数: 192,重复微薄数: 192,重复率: 100.0%
+2013-04-03 13:52:12  INFO StatusCarwler:26 - 结束第 151 个线程，耗时: 6007ms
+2013-04-03 13:52:12  INFO StatusCarwler:22 - 开启第 151 个线程
+2013-04-03 13:52:13  INFO SimpleCrawler:87 - 爬取微薄数: 193,重复微薄数: 193,重复率: 100.0%
+2013-04-03 13:52:13  INFO StatusCarwler:26 - 结束第 152 个线程，耗时: 2083ms
+2013-04-03 13:52:13  INFO SocialClient:159 - 从服务器取token耗时：0.289
+2013-04-03 13:52:13  INFO SocialClient:104 - 获取到新token: 2.00XgeU3Dvi153Bfe0d97d6b40EIzIh
+2013-04-03 13:52:13  INFO SocialClient:112 - in tokenChange
+2013-04-03 13:52:13  INFO WeiboApi:369 - in getAccountRateLimitStatus
+2013-04-03 13:52:13  INFO StatusCarwler:22 - 开启第 152 个线程
+2013-04-03 13:52:13  INFO SocialClient:126 - getAccountRateLimitStatus rateApi != null
+2013-04-03 13:52:13  INFO SocialClient:135 - tokenChange执行, userRemaining=150, ipRemaining=851
+2013-04-03 13:52:13  INFO SimpleCrawler:87 - 爬取微薄数: 191,重复微薄数: 191,重复率: 100.0%
+2013-04-03 13:52:13  INFO StatusCarwler:26 - 结束第 153 个线程，耗时: 2504ms
+2013-04-03 13:52:13  INFO StatusCarwler:22 - 开启第 153 个线程
+2013-04-03 13:52:13  INFO SimpleCrawler:87 - 爬取微薄数: 190,重复微薄数: 190,重复率: 100.0%
+2013-04-03 13:52:13  INFO StatusCarwler:26 - 结束第 154 个线程，耗时: 3329ms
+2013-04-03 13:52:13  INFO StatusCarwler:22 - 开启第 154 个线程
+2013-04-03 13:52:13  INFO SimpleCrawler:87 - 爬取微薄数: 190,重复微薄数: 190,重复率: 100.0%
+2013-04-03 13:52:13  INFO StatusCarwler:26 - 结束第 155 个线程，耗时: 3119ms
+2013-04-03 13:52:13  INFO SimpleCrawler:87 - 爬取微薄数: 196,重复微薄数: 196,重复率: 100.0%
+2013-04-03 13:52:13  INFO StatusCarwler:26 - 结束第 155 个线程，耗时: 2356ms
+2013-04-03 13:52:13  INFO StatusCarwler:22 - 开启第 155 个线程
+2013-04-03 13:52:13  INFO SimpleCrawler:87 - 爬取微薄数: 200,重复微薄数: 0,重复率: 0.0%
+2013-04-03 13:52:13  INFO StatusCarwler:26 - 结束第 156 个线程，耗时: 1732ms
+2013-04-03 13:52:14  INFO StatusCarwler:22 - 开启第 156 个线程

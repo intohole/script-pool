@@ -1,0 +1,1 @@
+lTimeCrawler.log | grep "爬取微薄数:" | awk '{FS=":|,"} {total=$5-$7} {printf "%d\n",total }'
