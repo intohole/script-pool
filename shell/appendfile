@@ -1,9 +1,0 @@
-
-
-
-path1=$1
-path2=$2
-
-for i in $(ll path1);do
-    echo $i
-done
