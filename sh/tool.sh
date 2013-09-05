@@ -9,3 +9,10 @@ get_file_line()
 }
 
 
+rm_zero_line()
+{
+	for file in $( wc -l | awk '{(if($1==0))print$2}');do
+		if [ -f $file ];then
+			rm $file
+		fi
+}
