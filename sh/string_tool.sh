@@ -35,11 +35,14 @@ isEmpty()
 
 startwith()
 {
-	len $2
-	len $1
-	_l=$?
-	if [ $_l -eq; then
-		#statements
+	if [ $# -lt 2 ]; then
+		return $FALSE
+	fi
+	_same=$(echo "$1" | grep "^$2" )
+	if [ "$_same" = "" ]; then
+		return $FALSE
+	else
+		return $TRUE
 	fi
 
 }
@@ -48,8 +51,9 @@ startwith()
 
 
 
-isempty 
+startwith "233" "123" 
 a=$?
 echo $a
+
 
 
