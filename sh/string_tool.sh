@@ -16,11 +16,6 @@ len()
 }
 
 
-
-
-
-
-
 isEmpty()
 {
 	len $1
@@ -33,7 +28,7 @@ isEmpty()
 }
 
 
-startwith()
+with()
 {
 	if [ $# -lt 2 ]; then
 		return $FALSE
@@ -44,14 +39,32 @@ startwith()
 	else
 		return $TRUE
 	fi
+}
 
+
+endwith()
+{
+	if [ $# -lt 2 ]; then
+		return $FALSE
+	fi
+	_same=$(echo "$1" | grep "$2$" )
+	if [ "$_same" = "" ]; then
+		return $FALSE
+	else
+		return $TRUE
+	fi
+}
+
+
+split()
+{
+	
 }
 
 
 
 
-
-startwith "233" "123" 
+endwith "233" "3" 
 a=$?
 echo $a
 
