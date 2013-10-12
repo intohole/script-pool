@@ -4,7 +4,7 @@ if [ $# -lt 1 ];then
 	echo "sh kill_all [thread name]"
 fi
 
-for i in $(ps aux | grep $1 | grep -v "grep" | grep -v $0 | awk {'print $2'});do 
+for i in $( ps aux | grep $1 | grep -v "grep" | grep -v $0 | awk {'print $2'} );do 
        echo "killing "$i ;
        kill -9 $i
        if [ $? -eq 0 ]; then 

@@ -11,8 +11,28 @@ get_file_line()
 #删除没有行数的空文件
 rm_zero_line()
 {
-	for file in $( wc -l | awk '{(if($1==0))print$2}');do
+	for file in $( wc -l * | awk '{if($1==0) print $2}');do
 		if [ -f $file ];then
 			rm $file
 		fi
+	done
 }
+
+
+read_file_line()
+{
+      if [ ! -f $1 ] ; then
+      	
+          return 
+      fi
+      while read -r line;do  $line ; done < $1
+}
+
+
+
+read_file_line /home/lixuze/Script/sh/cat_newestfile.sh
+echo $?
+
+
+
+

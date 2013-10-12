@@ -19,8 +19,8 @@ len()
 isEmpty()
 {
 	len $1
-	_l=$?
-	if [ $_l -eq 0 ]; then
+	
+	if [ $? -eq 0 ]; then
 		return $TRUE
 	else
 		return $FALSE
@@ -58,15 +58,13 @@ endwith()
 
 split()
 {
-	
+	return $WRONG
 }
 
 
 
 
-endwith "233" "3" 
-a=$?
-echo $a
+len "我" 
 
-
+echo $?
 
