@@ -28,7 +28,7 @@ isEmpty()
 }
 
 
-with()
+startwith()
 {
 	if [ $# -lt 2 ]; then
 		return $FALSE
@@ -62,9 +62,14 @@ split()
 }
 
 
+lowercase()
+{
+	return $( echo $1 | tr "[A-Z]" "[a-z]" )
+}
 
 
-len "我" 
+
+lowercase "ABCDEF" 
 
 echo $?
 
