@@ -20,7 +20,7 @@ login = web.form.Form(
 class Index:
 
     def GET(self):
-        return render.index(name = 'xx')
+        return render.index(name='xx')
 
 
 class Login:
