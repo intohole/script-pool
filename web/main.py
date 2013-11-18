@@ -10,27 +10,27 @@ urls = (
 
 app = web.application(urls, globals())
 render = web.template.render('templates/')
-login = web.form.Form(
-    web.form.Textbox('username'),
-    web.form.Password('password'),
-    web.form.Button('login')
-)
 
 
 class Index:
 
     def GET(self):
-        return render.index(name = 'xx')
+        return render.index(name='xx' , check = False)
 
 
 class Login:
+    login = web.form.Form(
+        web.form.Textbox('username'),
+        web.form.Password('password'),
+        web.form.Button('login')
+    )
 
     def GET(self):
-        form = login()
+        form = self.login()
         return render.testform(form)
 
     def POST(self):
-        form = login()
+        form = self.login()
         if not form.validates():
             return render.testform(form)
         if form.d.username == 'admin' and form.d.password == 'admin':
