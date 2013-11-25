@@ -39,20 +39,39 @@ def find_city(city, geo="(13202938.63,3745922.29;13267962.63,3758146.29)"):
     #     "t": long(time.time() * 1000)
 
     # }
+    # query = {
+    #     "newmap": "1",
+    #     "reqflag": "pcmap",
+    #     "biz": "1",
+    #     "qt": "con",
+    #     "from": "webmap",
+    #     "contp": "1",
+    #     "wd": city,
+    #     "c": "102",
+    #     "tn": "B_NORMAL_MAP",
+    #     "nn": "0",
+    #     "ie": "utf-8",
+    #     "l": "12",
+    #     "b": geo,
+    #     "t": long(time.time() * 1000)
+    # }
+
     query = {
         "newmap": "1",
         "reqflag": "pcmap",
         "biz": "1",
-        "qt": "con",
-        "from": "webmap",
-        "contp": "1",
+        "qt": "s",
         "wd": city,
-        "c": "102",
+        "c": "7",
+        "src": "0",
+        "wd2": "",
+        "sug": "0",
+        "l": "9",
+        "b": "(12366554.66,2552210.2;12809434.66,2748818.2)",
+        "from": "webmap",
         "tn": "B_NORMAL_MAP",
         "nn": "0",
         "ie": "utf-8",
-        "l": "12",
-        "b": geo,
         "t": long(time.time() * 1000)
     }
     # print geo
@@ -67,7 +86,7 @@ def find_city(city, geo="(13202938.63,3745922.29;13267962.63,3758146.29)"):
 
 def exist_city(city):
     city_dict = json.loads(find_city(city).read())
-    if city_dict.has_key('content'):
+    if city_dict.has_key('content') or city_dict.has_key('addrs'):
         if city_dict.has_key('current_city'):
             return city_dict['current_city']['up_province_name'].encode('utf-8')
     return None
@@ -96,14 +115,21 @@ if __name__ == '__main__':
                 inputfile = sys.argv[i + 1]
                 i = i + 1
         if province and inputfile:
+            open(inputfile + '.result','w').close()
+            erro_log = open('erro.dat' , 'a')
             fileHandle = open(inputfile + '.result', 'a')
             with open(inputfile) as f:
                 for line in f.readlines():
-                    city = exist_city(line)
+                    for i in range(3):
+                        city = exist_city(line)
+                        if city != None:
+                            break
                     if city == None or city.find(province) == -1:
-                        print line.strip(), city
+                        erro_log.write('%s\t%s\n' % (line.strip(), city))
+                        erro_log.flush()
                     else:
                         fileHandle.write(line)
                         fileHandle.flush()
             fileHandle.close()
+            erro_log.close()
             print 'over'
