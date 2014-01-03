@@ -1,7 +1,8 @@
-Title: java_hash_code_规则  
+Title: java_hash_code_rule  
+Slug: java_hash_code_
 Date: 2013-12-12 10:06:36  
 Tags: java  
-Category: 学习  
+Category: java  
 Author: 泽仔  
 Summary:  介绍java hash code 计算规则  
 
