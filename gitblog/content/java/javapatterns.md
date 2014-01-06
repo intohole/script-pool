@@ -1,8 +1,3 @@
-
-
-JAVA BUILDER
--------------
-
 Date: 2013-12-12 08:59:31
 Title: Java,设计模式  
 slug: java  
