@@ -2,7 +2,7 @@ Title: java 工厂模式
 Slug: java pattern  
 Date: 2014-01-03 10:35:20  
 Tags: java,设计模式,工厂  
-Category: java
+Category: 设计模式
 Author: 泽  
 Lang: zh  
 Summary: java 设计模式  

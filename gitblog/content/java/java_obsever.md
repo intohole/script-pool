@@ -1,8 +1,8 @@
 Title: java 观察者  
 Slug: java obsever  
 Date: 2013-12-29 12:42:41  
-Tags: java 设计模式  
-Category: java 设计模式  
+Tags: java,设计模式  
+Category: 设计模式  
 Author: 泽仔  
 Lang: zh  
 Summary:  java 观察者设计模式  

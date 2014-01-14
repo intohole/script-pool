@@ -2,7 +2,7 @@ Title: java 设计模式原则
 Slug: java patterns  
 Date: 2014-01-03 10:22:04  
 Tags: java,设计模式   
-Category: java  
+Category: 设计模式  
 Author: 泽  
 Lang: zh  
 Summary: java design  

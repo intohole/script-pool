@@ -2,7 +2,7 @@ Title: java 零拷贝(zero copy)
 Slug: java 零拷贝  
 Date: 2014-01-07 00:26:35  
 Tags: java , 技术  
-Category: java  
+Category: 技术  
 Author: 泽  
 Lang: zhs  
 Summary: java zero copy

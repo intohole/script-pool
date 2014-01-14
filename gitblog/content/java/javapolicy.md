@@ -2,7 +2,7 @@ Title: java 策略模式
 Slug: java ,  策略  
 Date: 2014-01-13 15:21:38  
 Tags: java , 设计模式  
-Category: java 设计模式  
+Category: 设计模式  
 Author: 泽  
 Lang: zh  
 Summary: java 策略模式  

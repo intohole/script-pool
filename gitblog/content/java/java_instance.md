@@ -1,8 +1,8 @@
 Title: java单例模式  
 Slug: java
 Date: 2013-12-29 11:53:55
-Tags: java 设计模式  
-Category: java  
+Tags: java,设计模式  
+Category: 设计模式  
 Author: 泽  
 Lang: zh  
 Summary: java 设计模式  
