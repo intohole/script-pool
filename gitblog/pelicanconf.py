@@ -21,8 +21,6 @@ CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
 TRANSLATION_FEED_ATOM = None
 
 
-
-
 # Blogroll
 LINKS = (('GitHub', 'https://github.com/intoblack/'),
          ('CSDN', 'http://www.csdn.net/'),)
@@ -31,6 +29,11 @@ LINKS = (('GitHub', 'https://github.com/intoblack/'),
 SOCIAL = (('WeiBo', 'http://weibo.com/1152049780'),)
 
 DEFAULT_PAGINATION = 6
+
+
+STATIC_PATHS = [
+    u'images',
+]
 
 THEME = "bootstrap2"
 RANDOM = 'random.html'
