@@ -26,7 +26,7 @@ Lang: zhs
 -------------------------
 + 基于广度遍历网页 （设置层数限制）
 + 利用redis 实现爬虫队列(先进后出 lpush , rpop)
-+ 利用redis bloomfilter 验证是否爬取网址(速度快 ， 分布式 ， 缺点 ： 有容错率 , 但是网络爬虫可以容忍这个问题)
++ 利用redis bloomfilter 验证是否爬取网址(速度快 ， 分布式 ， 缺点 ： 有容错率 , 但是网络爬虫可以容忍这个问题)   [bloomfilter  原理](https://github.com/intoblack/cgame/blob/master/code/bitmap.c)
 + 文件写入方式 ， 基于 队列 ， 定时刷新文件
 + 利用谷歌goaget ，访问，被墙页面 （技术自己搜）
 
