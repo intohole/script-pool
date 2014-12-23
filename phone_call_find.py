@@ -15,8 +15,8 @@ def find_phone_number(province='34', city='340', cost = 1,goodsid='341308068135'
 
     query = {
         "callback": "jsonp_queryMoreNums",
-        "province": "34",
-        "cityCode": "340",
+        "province": province,
+        "cityCode": city,
         "preFeeSel": cost,
         "keyValue": "",
         "rankMoney": "126",
